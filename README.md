@@ -2,14 +2,12 @@
 
 # Description
 
-This repository contains the code for the paper:
-
 Data-driven models are rising as a surrogate to overcome the limitations of the expensively computational 2D hydrodynamic models. However, data-driven models' ability to generalise to unseen case studies and areas outside the training domain is considered their major challenge (Bentivoglio et al., 2022). While the hypothesis in the literature is that deep learning is superior to traditional machine learning algorithms, recent studies showed the contrast (Seleem et al., 2022; Grinsztajn et al., 2022). Data-driven models' performance depends on the availability and quality of data to train, validate and test the model but 2D hydrodynamic simulations are limited to small areas. Therefore, A transferable data-driven model would help to overcome the difficulties of upscaling 2D hydrodynamic models to city scale. Additionally, transfer learning techniques can boost the model performance outside the training domain.     
 
-We evaluated the convolutional neural network and random forest's ability to predict flood water depth, generalise outside the training domain and improve their performance outside the training domain using transfer learning techniques.
+This repository evaluates the convolutional neural network and random forest's ability to predict flood water depth, generalise outside the training domain and improve their performance outside the training domain using transfer learning techniques.
 
 # Convolutional neural network: U-Net architecture
-We used the U-Net architecture.  
+Used U-Net architecture.  
 ![U_net_architecture_2](U_net_architecture_2.png)
 
 # Random forest
